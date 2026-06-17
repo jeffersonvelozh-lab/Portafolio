@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediCita.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afdd817eddefcec417541f1a9eb2ab7582dfafc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adfc5c1f8b806e5c014f04f085849b3495607a2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediCita.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediCita.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
