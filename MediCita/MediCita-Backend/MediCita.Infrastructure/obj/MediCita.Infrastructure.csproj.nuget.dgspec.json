@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Infrastructure\\MediCita.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Application\\MediCita.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Application\\MediCita.Application.csproj",
+        "projectName": "MediCita.Application",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Application\\MediCita.Application.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "framework": "net9.0",
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj"
+              },
+              "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj",
+        "projectName": "MediCita.Domain",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "framework": "net9.0",
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Infrastructure\\MediCita.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Infrastructure\\MediCita.Infrastructure.csproj",
+        "projectName": "MediCita.Infrastructure",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Infrastructure\\MediCita.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "framework": "net9.0",
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Application\\MediCita.Application.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Application\\MediCita.Application.csproj"
+              },
+              "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Domain\\MediCita.Domain.csproj"
+              },
+              "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj",
+        "projectName": "MediCita.Shared",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\MediCita.Shared.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Jefferson\\Portafolio\\MediCita\\MediCita-Backend\\MediCita.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "framework": "net9.0",
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

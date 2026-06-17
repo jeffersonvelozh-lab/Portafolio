@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MediCita.Application/MediCita.Application.csproj" />
+  <Project Path="MediCita.Domain/MediCita.Domain.csproj" />
+  <Project Path="MediCita.Infrastructure/MediCita.Infrastructure.csproj" />
+  <Project Path="MediCita.Shared/MediCita.Shared.csproj" />
+  <Project Path="MediCita.WebApi/MediCita.WebApi.csproj" />
+</Solution>
